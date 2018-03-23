@@ -15,10 +15,7 @@ jobs:
             - v1-dependencies-
       - 
         run: "mvn dependency:go-offline"
-      - 
-        run: 
-          command: "ping -c 4 en.wikipedia.org"
-          name: "Ping the Wiki org"
+
       - 
         run: 
           command: |
