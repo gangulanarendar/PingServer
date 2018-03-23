@@ -45,7 +45,7 @@ public class AppTest
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         
         ChromeDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+      //  driver.manage().window().maximize();
         driver.get("http://111.93.27.187:8889/niku/nu");
      
         WebDriverWait wait = new WebDriverWait(driver, 20);
