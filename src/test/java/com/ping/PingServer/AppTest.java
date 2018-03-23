@@ -56,7 +56,7 @@ public class AppTest
 		     driver.findElement(By.xpath("//input[@id='ppm_login_password']")).sendKeys("Clarity1");
 		     driver.findElement(By.xpath("//input[@id='ppm_login_button']")).click();
 		     Thread.sleep(3000);
-		     driver.navigate().to("http://111.93.27.187:8889/niku/nu");
+		     driver.navigate().to("http://111.93.27.187:8889/niku/nu#action:nmc.users");
 		     Thread.sleep(3000);
 		     driver.quit();
 
